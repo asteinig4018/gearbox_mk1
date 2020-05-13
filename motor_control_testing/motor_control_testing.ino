@@ -1,3 +1,12 @@
+/**
+This test turns the motor on for one second
+in one direction at the press of a button
+in pin 5.
+
+The position potentiometer is printed to the 
+serial monitor.
+
+**/
 const int controlPin1 = 2;
 const int controlPin2 =3;
 const int enablePin = 9;
